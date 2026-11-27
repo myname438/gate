@@ -21,9 +21,7 @@ on:
       timeout:
         description: '单节点检测超时（秒）'
         required: false
-        default: '25'
-      schedule:
-        - cron: '*/180 * * * *'        
+        default: '25'      
 
 permissions:
   contents: read
