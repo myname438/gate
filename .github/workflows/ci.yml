@@ -1,8 +1,8 @@
 name: CI
 
 on:
-  schedule:
-    - cron: '*/180 * * * *'   # 每 30 分钟一次，改成你自己的节奏
+  push:
+  pull_request:
   workflow_dispatch:
 
 permissions:
